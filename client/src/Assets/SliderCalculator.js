@@ -262,7 +262,6 @@ import { useState } from "react";
   
                       aria-label="Custom marks"
                       defaultValue={minimum}
-                      // getAriaValueText={valuetext}
                       minimum={minimum}
                       max={maximum}
                       marks={LabelArray[index]}
