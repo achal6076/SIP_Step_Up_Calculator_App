@@ -2,6 +2,7 @@ import React from "react";
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer} from 'recharts';
 
 
+
 function Graph({TotalSIPWithStepUp, InvestmentPeriod, graph, MonthlyInvest}){
   function toIndianRupees(sum){
     return sum.toString().replace(/\D/g, "").replace(/(\d+?)(?=(\d\d)+(\d)(?!\d))(\.\d+)?/g, "$1,");
